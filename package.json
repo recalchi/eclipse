@@ -1,0 +1,27 @@
+{
+  "name": "eclipse-calendar",
+  "version": "2.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Calendario anual cinematografico para eventos celestes, astrologicos e astronomicos.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
+    "astronomy-engine": "^2.1.19",
+    "lucide-react": "^0.561.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0"
+  }
+}
+
